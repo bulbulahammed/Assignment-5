@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    width: 1180px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+#single-food{
+    display: grid; 
+    grid-template-columns: repeat(4,1fr); 
+    grid-gap: 20px;
+    border-radius: 5px;
+}
+#single-food img{
+    border-radius: 5px;
+}
+
+#single-food h1{
+    border-radius: 5px;
+    font-size: 25px;
+}
